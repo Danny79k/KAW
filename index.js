@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <style>
         body {
@@ -27,8 +27,11 @@ app.get('/', (req, res) => {
 <body>
     <main>
         <section class="border pt-5">
-            <div class="border d-flex justify-content-center">
-                <h1 class="style-3">Hola</h1>
+            <div class="border d-flex justify-content-center flex-column text-center">
+                <h1 class="style-3">Buenos dias</h1>
+                <p>A la persona mas hermosa y buena de este mundo,
+                    a la novia mas increible que existe y a la amiga mas cool que una persona pudiera tener, a la compañera de viaje mas entretenida y a la persona con la que quiero compartir una vida junto, te quiero mucho <3<3
+                </p>
             </div>
         </section>
     </main>
